@@ -1,12 +1,14 @@
 <!-- navbar will go here -->
 
 
+<div class="articles-container mx-auto my-5" style="width: 800px">
   <% @articles.each do |article| %>
-    <div>
+    <div class="m-4">
       <%= link_to article_path(article) do %>
         <h2><%= article.title %></h2>
       <% end %>
       <p><%= article.content %></p>
     </div>
   <% end %>
+</div>
 
