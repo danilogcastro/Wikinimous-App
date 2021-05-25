@@ -28,3 +28,14 @@ p {
 a:hover {
   text-decoration: none;
 }
+
+.title h2 {
+  color: rgb(80, 80, 80);
+}
+
+.icon {
+  color: #742cf9;
+  &:hover {
+    color: #5818ce;
+  }
+}
